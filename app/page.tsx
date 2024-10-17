@@ -28,11 +28,11 @@ export default function Homepage() {
       >
         <StarsIllustration />
       </div>
-      <UnlikeAnyTool />
+      {/* <UnlikeAnyTool /> */}
 
       <EnjoyIssueTracking />
-      <BuildMomentum />
-      <SetDirection />
+      {/* <BuildMomentum />
+      <SetDirection /> */}
     </>
   );
 }

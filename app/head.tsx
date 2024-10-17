@@ -1,10 +1,10 @@
 export default function Head() {
   return (
     <>
-      <title>Rebuilding Linear.app</title>
+      <title>ProsGPT | Build and Monetize Your AI Business</title>
       <meta
         name="description"
-        content="Rebuilding Linear.app's website with Next.js, Tailwind."
+        content="Start your AI business today with ProsGPT. Create and customize AI-powered chatbot websites, add a custom domain, and monetize with flexible pricing options. Get started in minutes—no coding skills needed!."
       />
       <meta name="robots" content="noindex" />
     </>

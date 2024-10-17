@@ -53,8 +53,9 @@ export const Footer = () => (
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="flex items-center text-grey">
-            <Logo className="mr-4 h-4 w-4" /> Linear - Designed worldwide
+            <Logo className="mr-4 h-4 w-4" /> ProsGPT
           </div>
+          <br></br>
           <div className="mt-auto flex space-x-4 text-grey">
             <TwitterIcon />
             <GithubIcon />
@@ -63,7 +64,7 @@ export const Footer = () => (
         </div>
       </div>
       <div className="flex flex-wrap">
-        {footerLinks.map((column) => (
+        {/* {footerLinks.map((column) => (
           <div
             key={column.title}
             className="mt-10 min-w-[50%] lg:mt-0 lg:min-w-[18rem]"
@@ -82,7 +83,7 @@ export const Footer = () => (
               ))}
             </ul>
           </div>
-        ))}
+        ))} */}
       </div>
     </Container>
   </footer>

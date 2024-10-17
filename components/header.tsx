@@ -32,7 +32,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]">
       <Container className="flex h-navigation-height">
         <Link className="flex items-center text-md" href="/">
-          <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Linear
+          <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> ProsGPT
         </Link>
 
         <div
@@ -56,7 +56,7 @@ export const Header = () => {
                 hamburgerMenuIsOpen && "[&_a]:translate-y-0"
               )}
             >
-              <li>
+              {/* <li>
                 <Link href="#">Features</Link>
               </li>
               <li>
@@ -76,7 +76,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link href="#">Company</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

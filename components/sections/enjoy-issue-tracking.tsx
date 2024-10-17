@@ -16,45 +16,45 @@ export const EnjoyIssueTracking = () => {
       <Features.Main
         title={
           <>
-            Issue tracking
+            Build. Customize.
             <br />
-            you'll enjoy using
+            Monetize.
           </>
         }
         image="/issues.webp"
-        text="Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team."
+        text="With ProsGPT, no technical skills are required to build your AI business. Our intuitive setup and advanced customization tools make launching and scaling effortless."
       />
       <Features.Grid
         features={[
           {
             icon: ParentSubIcon,
-            title: "Parent and sub-issues.",
-            text: "Break larger takss into smaller issues",
+            title: "AI That Remembers.",
+            text: "Advanced Brain Integration, powered by OpenAI",
           },
           {
             icon: AutomatedBacklogIcon,
-            title: "Automated backlog.",
-            text: "Linear will auto-close and auto-archive issues.",
-          },
-          {
-            icon: WorkflowsIcon,
-            title: "Custom workflows",
-            text: "Define unique issue states for each team.",
+            title: "Completely Customizable.",
+            text: "Tailor your theme, layout and domains effortlessly.",
           },
           {
             icon: CustomViewsIcon,
-            title: "Filters and custom views.",
-            text: "See only what's relevant for you.",
+            title: "Monetization Flexibility.",
+            text: "Offer trials, subscriptions, or one-time fees.",
           },
           {
             icon: DiscussionIcon,
-            title: "Discussion.",
-            text: "Collaborate on issues without losing context.",
+            title: "No-Code Setup.",
+            text: "Build and launch with zero technical knowledge.",
+          },
+          {
+            icon: WorkflowsIcon,
+            title: "Scalable Infrastructure.",
+            text: "Handle high traffic with speed, at a low cost.",
           },
           {
             icon: IssuesIcon,
-            title: "Issue templates.",
-            text: "Guide your team to write effective issues.",
+            title: "Advanced Analytics.",
+            text: "Gain insights into user behavior and performance.",
           },
         ]}
       />
@@ -63,15 +63,15 @@ export const EnjoyIssueTracking = () => {
           {
             image: "/card-board.webp",
             imageClassName: "top-[55%] md:top-[40%] w-[200%]",
-            title: "List and board",
-            text: "Switch between list and board layout to view work from any angle.",
+            title: "Advanced User Management",
+            text: "Control exactly who uses your assistants, and set your own limits per user.",
           },
           {
             image: "/card-views.webp",
             imageClassName:
               "top-[45%] left-[12px] md:top-[34%] md:left-[24px] w-[110%]",
-            title: "Make it yours",
-            text: "Quickly apply filters and operators to refine your issue lists and create custom views.",
+            title: "Bring Your Own Keys",
+            text: "Configure your own OpenAI API keys and save costs",
           },
         ]}
       />
