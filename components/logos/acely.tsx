@@ -1,7 +1,7 @@
-export const Logo = ({ className }: { className?: string }) => (
+export const AcelyLogo = ({ className }: { className?: string }) => (
   <img
     className={className}
-    src="prosgpt-logo.png" // Update with the correct image path
+    src="/logos/acely.png" // Update with the correct image path
     alt="acely"
     role="img"
     focusable="false"

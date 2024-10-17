@@ -6,45 +6,45 @@ import { SlackIcon } from "./icons/slack";
 import { TwitterIcon } from "./icons/twitter";
 
 const footerLinks = [
+  // {
+  //   title: "Product",
+  //   links: [
+  //     { title: "Features", href: "#" },
+  //     { title: "Integrations", href: "#" },
+  //     { title: "Pricing", href: "#" },
+  //     { title: "Changelog", href: "#" },
+  //     { title: "Docs", href: "#" },
+  //     { title: "Linear Method", href: "#" },
+  //     { title: "Download", href: "#" },
+  //   ],
+  // },
   {
-    title: "Product",
+    title: "Contact",
     links: [
-      { title: "Features", href: "#" },
-      { title: "Integrations", href: "#" },
-      { title: "Pricing", href: "#" },
-      { title: "Changelog", href: "#" },
-      { title: "Docs", href: "#" },
-      { title: "Linear Method", href: "#" },
-      { title: "Download", href: "#" },
+      { title: "Twitter", href: "https://x.com/ProsGPT" },
+      { title: "Discord", href: "https://discord.com/invite/KY7dVeFKRR" },
+      // { title: "Careers", href: "#" },
+      // { title: "Customers", href: "#" },
+      // { title: "Brand", href: "#" },
     ],
   },
-  {
-    title: "Company",
-    links: [
-      { title: "About us", href: "#" },
-      { title: "Blog", href: "#" },
-      { title: "Careers", href: "#" },
-      { title: "Customers", href: "#" },
-      { title: "Brand", href: "#" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { title: "Community", href: "#" },
-      { title: "Contact", href: "#" },
-      { title: "DPA", href: "#" },
-      { title: "Terms of service", href: "#" },
-    ],
-  },
-  {
-    title: "Developers",
-    links: [
-      { title: "API", href: "#" },
-      { title: "Status", href: "#" },
-      { title: "GitHub", href: "#" },
-    ],
-  },
+  // {
+  //   title: "Resources",
+  //   links: [
+  //     { title: "Community", href: "#" },
+  //     { title: "Contact", href: "#" },
+  //     { title: "DPA", href: "#" },
+  //     { title: "Terms of service", href: "#" },
+  //   ],
+  // },
+  // {
+  //   title: "Developers",
+  //   links: [
+  //     { title: "API", href: "#" },
+  //     { title: "Status", href: "#" },
+  //     { title: "GitHub", href: "#" },
+  //   ],
+  // },
 ];
 
 export const Footer = () => (
@@ -57,14 +57,14 @@ export const Footer = () => (
           </div>
           <br></br>
           <div className="mt-auto flex space-x-4 text-grey">
-            <TwitterIcon />
-            <GithubIcon />
-            <SlackIcon />
+            {/* <TwitterIcon /> */}
+            {/* <GithubIcon /> */}
+            {/* <SlackIcon /> */}
           </div>
         </div>
       </div>
       <div className="flex flex-wrap">
-        {/* {footerLinks.map((column) => (
+        {footerLinks.map((column) => (
           <div
             key={column.title}
             className="mt-10 min-w-[50%] lg:mt-0 lg:min-w-[18rem]"
@@ -83,7 +83,7 @@ export const Footer = () => (
               ))}
             </ul>
           </div>
-        ))} */}
+        ))}
       </div>
     </Container>
   </footer>

@@ -21,7 +21,7 @@ export const EnjoyIssueTracking = () => {
             Monetize.
           </>
         }
-        image="/issues.webp"
+        image="/monetize.png"
         text="With ProsGPT, no technical skills are required to build your AI business. Our intuitive setup and advanced customization tools make launching and scaling effortless."
       />
       <Features.Grid
@@ -61,13 +61,13 @@ export const EnjoyIssueTracking = () => {
       <Features.Cards
         features={[
           {
-            image: "/card-board.webp",
+            image: "/users.png",
             imageClassName: "top-[55%] md:top-[40%] w-[200%]",
             title: "Advanced User Management",
             text: "Control exactly who uses your assistants, and set your own limits per user.",
           },
           {
-            image: "/card-views.webp",
+            image: "/api-key.png",
             imageClassName:
               "top-[45%] left-[12px] md:top-[34%] md:left-[24px] w-[110%]",
             title: "Bring Your Own Keys",
